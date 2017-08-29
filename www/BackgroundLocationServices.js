@@ -1,6 +1,5 @@
 var exec = null;
-if(Meteor.isCordova) {
-	exec = require("cordova/exec");
+  exec = require("cordova/exec");
   module.exports = {
       pName : 'BackgroundLocationServices',
       config: {},
@@ -70,4 +69,3 @@ if(Meteor.isCordova) {
             []);
       }
   };
-}
